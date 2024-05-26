@@ -23,7 +23,6 @@ public class ProdutoRepositoryImpl implements ProdutoRepository {
         database.put(produto.getId(), produto);
         return produto;
     }
-
     @Override
     public List<Produto> buscarTodos() {
         return new ArrayList<>(database.values());

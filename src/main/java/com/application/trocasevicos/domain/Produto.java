@@ -3,7 +3,7 @@ package com.application.trocasevicos.domain;
 import java.util.UUID;
 
 public class Produto {
-    
+
     private UUID codigo;
     private Long id;
     private String nome;
