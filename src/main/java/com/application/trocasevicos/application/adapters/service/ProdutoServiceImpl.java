@@ -3,10 +3,12 @@ package com.application.trocasevicos.application.adapters.service;
 import com.application.trocasevicos.application.adapters.service.in.ProdutoService;
 import com.application.trocasevicos.application.adapters.service.out.ProdutoRepository;
 import com.application.trocasevicos.domain.Produto;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class ProdutoServiceImpl implements ProdutoService {
 
     private final ProdutoRepository produtoRepository;
